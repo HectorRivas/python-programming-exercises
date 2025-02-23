@@ -4,20 +4,54 @@
 ###
 
 def area_triangle(base, height):
+    """Calculates the area of a triangle.
+
+    Args:
+        base: The base of the triangle.
+        height: The height of the triangle.
+
+    Returns:
+        None. Prints the calculated area to the console.
+    """
     area = (base * height) / 2
     print(f"The area of the triangle is: {area}")
 
 
 def area_square(side):
+    """Calculates the area of a square.
+
+    Args:
+        side: The length of a side of the square.
+
+    Returns:
+        None. Prints the calculated area to the console.
+    """
     area = side * side
     print(f"The area of square is: {area}")
 
 def area_rectangle(base, height):
+    """Calculates the area of a rectangle.
+
+    Args:
+        base: The base of the rectangle.
+        height: The height of the rectangle.
+
+    Returns:
+        None. Prints the calculated area to the console.
+    """
     area = base * height
     print(f"The area of rectangle is: {area}")
 
 def area_circle(radius):
-    PI =  3.14159265358979323846
+    """Calculates the area of a circle.
+
+    Args:
+        radius: The radius of the circle.
+
+    Returns:
+        None. Prints the calculated area to the console.
+    """
+    PI = 3.14159265358979323846
     area = PI * (radius ** 2)
     print(f"The area of circle is: {area}")
 
